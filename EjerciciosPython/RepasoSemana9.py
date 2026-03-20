@@ -46,7 +46,16 @@ def saludo(nombres):
 fmaTemu = Serie.title()
 saludo(Serie)
 saludo(fmaTemu)
-
-
-
 ## deprogracion Lineal
+
+
+## compara cadenas de texo
+nombre = "Brayan Adonay Penate"
+password = "1234"
+
+if nombre == "Brayan Adonay Penate":
+    contra = str(input("Ingrese su pass: "))
+    if password == contra:
+        print("Wellcome")
+
+
